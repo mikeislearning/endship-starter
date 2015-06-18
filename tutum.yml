@@ -1,0 +1,10 @@
+app:
+  image: mikeislearning/endship-starter
+  ports:
+    - "80:3000"
+  links:
+    - database
+  tags:
+    - endship-starter-production
+database:
+  image: mongo
