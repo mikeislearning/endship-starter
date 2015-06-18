@@ -1,6 +1,5 @@
 /**
- * Module dependencies.
- */
+ * Module dependencies. */
 var express = require('express');
 var cookieParser = require('cookie-parser');
 var compress = require('compression');
